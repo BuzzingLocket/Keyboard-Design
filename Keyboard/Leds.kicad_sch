@@ -144,6 +144,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_marbastlib-various:SK6812MINI-E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -610,6 +734,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Bulk Cap and Data Resistor\n"
+		(exclude_from_sim no)
+		(at 37.338 25.908 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f1f75a1b-2e0b-4185-bcb3-157b799fc92b")
+	)
 	(junction
 		(at 248.92 107.95)
 		(diameter 0)
@@ -645,6 +779,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07fb4ada-c084-47a1-b395-efb0bc5bf0ce")
+	)
+	(junction
+		(at 76.2 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09a13b84-bdc9-4812-969d-00b318b36a46")
 	)
 	(junction
 		(at 76.2 31.75)
@@ -1629,6 +1769,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4a90d90-f680-48df-8000-2aa0eaefdd68")
+	)
+	(junction
+		(at 76.2 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f699eb99-1d9e-49e8-b51c-e00c873e2447")
 	)
 	(junction
 		(at 238.76 92.71)
@@ -2653,6 +2799,16 @@
 			(type default)
 		)
 		(uuid "37be57f2-55f3-49b6-9e59-607e08c90ee3")
+	)
+	(wire
+		(pts
+			(xy 44.45 35.56) (xy 76.2 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39e5f711-529e-4827-926a-3ba9f419cd2d")
 	)
 	(wire
 		(pts
@@ -5246,6 +5402,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 43.18) (xy 76.2 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd01a1c0-3fda-4c44-8d06-f4af63a8a769")
+	)
+	(wire
+		(pts
 			(xy 208.28 46.99) (xy 218.44 46.99)
 		)
 		(stroke
@@ -5756,7 +5922,7 @@
 	)
 	(global_label "LED In"
 		(shape input)
-		(at 64.77 39.37 180)
+		(at 57.15 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5764,9 +5930,9 @@
 			)
 			(justify right)
 		)
-		(uuid "f40db98d-90c5-4aeb-bf67-2088c6ec2f45")
+		(uuid "bdd55352-d0a0-4b7f-94f2-1c592cf9b4af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.6163 39.37 0)
+			(at 47.9963 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11922,6 +12088,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 60.96 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9344b3d1-9ced-47ab-abb0-104fb30d8076")
+		(property "Reference" "R1"
+			(at 60.96 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470"
+			(at 60.96 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 60.96 41.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad4d2fe4-9c51-4be6-a997-96f78202b96d")
+		)
+		(pin "1"
+			(uuid "3d969579-c4a6-482a-8d94-6fc5445e9fdb")
+		)
+		(instances
+			(project ""
+				(path "/1adb6431-6ef0-4791-a9b7-77cd24f5e50e/8000d41a-6d92-4955-bded-3e4555e4e3bb"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
 		(at 309.88 39.37 0)
 		(unit 1)
@@ -15395,6 +15629,75 @@
 			(project "Keyboard"
 				(path "/1adb6431-6ef0-4791-a9b7-77cd24f5e50e/8000d41a-6d92-4955-bded-3e4555e4e3bb"
 					(reference "LED65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 44.45 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4ddaf32-fde9-4c57-a886-e11c36c7792a")
+		(property "Reference" "C74"
+			(at 36.322 37.846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1000uF"
+			(at 35.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 43.4848 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 44.45 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d058093d-bc50-48fb-a790-1e5a1811a56d")
+		)
+		(pin "1"
+			(uuid "815032f5-765b-440d-acec-01c82e394c64")
+		)
+		(instances
+			(project "Keyboard"
+				(path "/1adb6431-6ef0-4791-a9b7-77cd24f5e50e/8000d41a-6d92-4955-bded-3e4555e4e3bb"
+					(reference "C74")
 					(unit 1)
 				)
 			)
