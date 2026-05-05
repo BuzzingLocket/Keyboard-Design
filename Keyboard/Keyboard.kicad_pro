@@ -136,7 +136,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.4,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -188,8 +188,7 @@
       ],
       "track_widths": [
         0.0,
-        0.25,
-        2.0
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -232,7 +231,18 @@
       "mfg": "",
       "mpn": ""
     },
-    "layer_pairs": [],
+    "layer_pairs": [
+      {
+        "bottomLayer": 2,
+        "enabled": true,
+        "topLayer": 0
+      },
+      {
+        "bottomLayer": 6,
+        "enabled": true,
+        "topLayer": 4
+      }
+    ],
     "layer_presets": [],
     "viewports": []
   },
@@ -628,6 +638,10 @@
     [
       "1adb6431-6ef0-4791-a9b7-77cd24f5e50e",
       "Root"
+    ],
+    [
+      "8000d41a-6d92-4955-bded-3e4555e4e3bb",
+      "Leds"
     ]
   ],
   "text_variables": {}
