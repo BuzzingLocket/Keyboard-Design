@@ -4,3 +4,7 @@ May 8th 2026
 Missing a screw ctrl key on the righthand side
 Uses a Raspberry Pi Pico as the MCU, I was too lazy to impliment my own rp2040 MCU design
 Firmware will be updated at a later date
+
+May 9th 2026
+---------------------
+Firmware updated
