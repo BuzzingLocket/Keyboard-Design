@@ -10,3 +10,9 @@
 - Slight issue, lpkf protomat s103 requires vias at 0.8mm diameter with a hole of 0.4mm
 - Not the same as 0.6mm diameter with a hole of 0.3mm
 - Quick fix, could have been more specific
+
+# June 2nd 2026 Firmware Release 🚀
+- Added QMK firmware
+- FUll matrix finished
+- RGB added
+- Could be errors, requires more testing
