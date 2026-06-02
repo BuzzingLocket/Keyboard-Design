@@ -16,4 +16,4 @@
 - FUll matrix finished
 - RGB added
 - Could be errors, requires more testing
-- QMK uses HSB (hue, saturation, brightness) not RGB (Red, Green, Blue)
+- QMK uses HSV (hue, saturation, value) not RGB (Red, Green, Blue)
