@@ -21,9 +21,9 @@
   "encoder": {
     "rotary": [
       {
-        "pin_a": "GP20",
-        "pin_b": "GP21",
-        "resolution": 2
+        "pin_a": "GP21",
+        "pin_b": "GP20",
+        "resolution": 4
       }
     ]
   },
@@ -121,9 +121,10 @@
   },
   "rgb_matrix": {
     "driver": "ws2812",
-    "sleep": true,
-    "timeout": 3000,
-    "byte_order": "GRBW",
+    "animations": {
+    "solid_reactive_simple": true
+    },
+    "speed" : 30,
     "led_count": 72,
     "leds": [
     {"flags": 4, "matrix": [0, 0], "x": 0, "y": 0},
