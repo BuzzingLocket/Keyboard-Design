@@ -17,3 +17,9 @@
 - RGB added
 - Could be errors, requires more testing
 - QMK uses HSV (hue, saturation, value) not RGB (Red, Green, Blue)
+
+# June 14th 2026 Firmware Update ⚡
+- Finalized the QMK firmware
+- Edited the rotary encoder resolution from 2 --> 4
+- Switched GP21 and GP20 due to preference
+- Finished testing keyboard
