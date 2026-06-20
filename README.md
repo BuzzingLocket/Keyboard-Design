@@ -39,3 +39,4 @@
 # June 20th 2026 Firmware Qualtiy of Life ✨
 - Uploaded .uf2 file for firmware
 - Renamed folders for recognition
+- Removed USB C datasheet as it was not used
