@@ -23,3 +23,19 @@
 - Edited the rotary encoder resolution from 2 --> 4
 - Switched GP21 and GP20 due to preference
 - Finished testing keyboard
+- Uploaded as .c file
+
+# June 20th 2026 Case Design Release 🚀
+- Learned how to use Fusion360
+- Created bottom case housing
+- Pillars for M2 screws and for support
+- 4mm base depth
+- 5mm wide walls
+- 6mm pillars for pcb to lie ontop
+- Designed for M2x4mm (3.5mm width) heat inserts
+- Designed for M2x5mm screws
+- Uploaded as .STEP and .STL
+
+# June 20th 2026 Firmware Qualtiy of Life ✨
+- Uploaded .uf2 file for firmware
+- Renamed folders for recognition
