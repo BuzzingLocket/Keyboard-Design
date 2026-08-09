@@ -50,3 +50,9 @@
   - Allows for a top portion of the case
       - Higher case level
       - Covers the exposed microcontroller
+   
+# August 9th 2026 Keyboard Case Update⚡
+- Uploaded top case files .stl and .step
+- Started the top case design
+- Added pillars to insert into sockets from the bottom case
+- Added a cover for the Pi Pico
