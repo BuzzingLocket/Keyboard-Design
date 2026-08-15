@@ -56,3 +56,9 @@
 - Started the top case design
 - Added pillars to insert into sockets from the bottom case
 - Added a cover for the Pi Pico
+
+# August 15th 2026 Keyboard Case Update⚡
+- Updated bot case files .stl and .step
+- Holes were too small as they shrunk when cooled
+  - Expanded hole radius by 0.25mm
+- Cover for pi pico on 1top case is accurate
