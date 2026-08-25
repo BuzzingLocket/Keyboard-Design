@@ -62,3 +62,8 @@
 - Holes were too small as they shrunk when cooled
   - Expanded hole radius by 0.25mm
 - Cover for pi pico on 1top case is accurate
+
+# August 25th 2026 Keyboard Print Files Update⚡
+- Finished certification and testing of all cases
+- Purchasing filament
+- Printing at Toronto Metropolitan Universities DME
