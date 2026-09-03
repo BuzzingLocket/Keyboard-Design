@@ -67,3 +67,8 @@
 - Finished certification and testing of all cases
 - Purchasing filament
 - Printing at Toronto Metropolitan Universities DME
+
+# September 3rd 2026 Keyboard Print Files Update⚡
+- Updated Keyboard print files
+- Added a fin onto the back of the Bot_Case to make it print more stable
+- Fin helps print diagonally without excessive use of filament from auto generated supports
